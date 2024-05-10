@@ -1,0 +1,13 @@
+theme: minima 
+#remote_theme: jekyll/minima
+#plugins:
+#  - jekyll-remote-theme
+title: Open Agent Systems (OASYS) 
+description: Multiagent Decision Making in Open Environments
+header_pages:
+  - openness.md
+  - applications.md
+  - methods.md
+  - mosaei.md
+minima:
+  skin: dark

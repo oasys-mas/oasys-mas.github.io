@@ -1,0 +1,8 @@
+.site-header, .page-content, .site-footer {
+    #background-color: #aaaaaa;
+    background-image: linear-gradient(to right, #bbbbbb, white 25%, white 75%, #bbbbbb);
+}
+
+.post {
+    background-color: white;
+}

@@ -36,9 +36,17 @@ The following video provides a short overview of the problems, challenges, and s
 
 ## Publications 
 
-More details about our research on OASYS can be found in:
+A summary of the research area of OASYS can be found in:
 
 * Eck, A., Soh, L.-K., & Doshi, P. 2023. Decision Making in Open Multiagent Systems. AI Magazine. 44(4), 508-523. [[link]](https://onlinelibrary.wiley.com/doi/10.1002/aaai.12131)
+
+More details about our research on OASYS can be found in:
+
+* He, K., Doshi, P., & Banerjee, B. 2024. Robust Individualistic Learning in Many-Agent Systems. Proceedings of the 25th International Conference on Principles and Practice of Multi-Agent Systems (PRIMA'2024) [[link]](http://thinc.cs.uga.edu/files/hdbPRIMA24.pdf)
+
+* Suresh, P.S., Romeres, D., Doshi, D., & Jain, S. 2024. Open Human-Robot Collaboration Systems (OHRCS): A Research Perspective. Proceedings of the 2024 IEEE Conference on Cognition and Machine Intelligence (CogMI'2024), Blue Sky/Vision Track. [[link]](http://thinc.cs.uga.edu/files/srdjCogMI24.pdf)
+
+* Suresh, P.S., Jain, S., Doshi, P., & Romeres, D. 2024. Open Human-Robot Collaborations using Decentralized Inverse Reinforcement Learning. Proceedings of the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'2024). [[link]](http://thinc.cs.uga.edu/files/sjprIROS24.pdf)
 
 * He, K., Doshi, P., Banerjee, B. 2023. Latent Interactive A2C for Improved RL in Open Many-Agent Systems. arXiv:2305.05159. [[link]](https://arxiv.org/abs/2305.05159)
 

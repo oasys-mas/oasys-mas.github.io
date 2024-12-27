@@ -48,8 +48,6 @@ More details about our research on OASYS can be found in:
 
 * Suresh, P.S., Jain, S., Doshi, P., & Romeres, D. 2024. Open Human-Robot Collaborations using Decentralized Inverse Reinforcement Learning. Proceedings of the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'2024). [[link]](http://thinc.cs.uga.edu/files/sjprIROS24.pdf)
 
-* He, K., Doshi, P., Banerjee, B. 2023. Latent Interactive A2C for Improved RL in Open Many-Agent Systems. arXiv:2305.05159. [[link]](https://arxiv.org/abs/2305.05159)
-
 * Kakarlapudi, A., Anil, G., Eck, A., Doshi, P., & Soh, L.-K. 2022. Decision-Theoretic Planning with Communication in Open Multiagent Systems. Proceedings of the 2022 Conference on Uncertainty in Artificial Intelligence (UAI'22), Eindhoven, Netherlands, August 1-5, 2022 [[link]](https://proceedings.mlr.press/v180/kakarlapudi22a/kakarlapudi22a.pdf) [[Open Review with Appendices]](https://openreview.net/forum?id=H5LUOwUoql5) [[Code]](https://github.com/OberlinAI/CommunicativeOASYS)
 
 * Eck, A., Shah, M., Doshi, P., & Soh, L.-K. 2020. Scalable Decision-Theoretic Planning in Open and Typed Multiagent Systems. Proceedings of the Thirty-fourth AAAI Conference on Artificial Intelligence (AAAI’2020), New York City, NY, February 8-12, 2020. [[link]](https://aaai.org/ojs/index.php/AAAI/article/view/6200) [[Preprint with Appendices]](https://arxiv.org/abs/1911.08642) [[Code]](https://github.com/OberlinAI/ScalableOASYS)

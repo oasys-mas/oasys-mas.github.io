@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Methods for Open Agent Systems Evaluation Initiative</title>
+  <style>
+    /* Basic reset and styling */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #0b3d91; /* Example navy color */
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #f4f4f4;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #0b3d91;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: #0b3d91;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    /* Example styling for timeline list */
+    .timeline ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .timeline li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Methods for Open Agent Systems Evaluation Initiative 2025 Competition</h1>
+    <h3>May 20th, 2025 at AAMAS '25</h3>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#opensystems">Open Systems</a>
+    <a href="#track1">Track #1</a>
+    <a href="#track2">Track #2</a>
+    <a href="#track3">Track #3</a>
+    <a href="#evaluation">Evaluation</a>
+    <a href="#submissions">Submissions</a>
+    <a href="#rules">Rules</a>
+    <a href="#platform">Platform</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#organizers">Organizers</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+    <!-- About the Competition -->
+    <section id="about">
+      <h2>About the Competition</h2>
+      <p>
+        Welcome to the inaugural MOASEI Competition, bringing together students, researchers, and professionals from around the world interested in addressing the challenges of Open Agent Systems (OASYS)! The first event to provide unique benchmarking to evaluate the effectiveness of Multiagent Reinforcement Learning (MARL) OASYS. What makes MOASEI unique is the focus on OASYS, which is characterized by the ability of agents and/or tasks that can join or leave the system at any time. The competition will feature a series of benchmark domains that capture the key challenges of OASYS, such as robustness and adaptability. Participants will be asked to submit their MARL checkpoints, which will be evaluated on their performance across one or more of these tracks. The competition will be held leading up to and culminating at the AAMAS conference, providing a unique opportunity for participants to showcase their work to the broader multiagent systems community. We look forward to your participation and hope to see you at the competition!
+      </p>
+    </section>
+
+    <!-- Open Systems Background -->
+    <section id="opensystems">
+      <h2>Open Systems Background</h2>
+      <p>
+        Making correct decisions to accomplish tasks and goals is often challenging  for AI in real-world applications due to the uncertainty caused by incomplete information and nondeterministic environment behavior. For example, when the set of agents changes over time (due to agent openness), reasoning becomes more complex than in a closed environment because the agent should not only predict what actions other agents will perform, but also which of the other agents are even present to take actions at all. Likewise, when the set of tasks change dynamically over time (due to task openness), agents are less certain that their actions taken to complete existing tasks will remain optimal in the long run as new tasks are introduced or existing tasks disappear.
+      </p>
+    </section>
+
+    <!-- Track #1 -->
+    <section id="track1">
+      <h2>Track #1: <em>Cyber Defense (Agent Openness Only)</em></h2>
+      <p>
+        Two teams of multiple agents (attackers vs. defenders) compete to either infiltrate or protect a network infrastructure. Attacker agents frequently disappear to avoid detection, and defender agents (e.g. participants) can be taken offline as the equipment they use is disrupted by network infection. 
+      </p>
+    </section>
+
+    <!-- Track #2 -->
+    <section id="track2">
+      <h2>Track #2: <em>Rideshare (Task Openness Only)</em></h2>
+      <p>
+        Agents operating autonomous cars within a ridesharing application decide how to prioritize dynamically appearing passengers as tasks.
+      </p>
+    </section>
+
+    <!-- Track #3 -->
+    <section id="track3">
+      <h2>Track #3: <em>Wildfire (Both Agent and Task Openness)</em></h2>
+      <p>
+        Agents decide how to use limited suppressant resources to collaboratively put out wildfire tasks that appear both spontaneously and due to realistic fire-spread mechanics. Agents must temporarily disengage when they run out of limited suppressant to recharge before rejoining the firefighting efforts.
+      </p>
+    </section>
+
+    <!-- Evaluation -->
+    <section id="evaluation">
+      <h2>Evaluation</h2>
+      <p>
+        Solutions will be evaluated both on the initial set of shared scenarios available for training, as  well as a novel set of 2-3 configuration that will not be shared (nor the random seeds used) before the conclusion of the competition. Solutions that fail to complete will be evaluated with respect to the tasks they complete before failing.</br></br>
+        Domain-independent MARL Performance Measures: All solutions in all tracks will be evaluated according to the cumulative rewards earned by agents making decisions while operating in test scenarios of the domain utilizing the submitted MARL solution. By using the same performance measures across tracks/domains, we can also try to establish general trends that could generalize to other OASYS domains and characterize the solutions submitted by competitors.</br></br>
+        Domain-specific Task Performance Measures: Ultimately , the success of MAS solutions for real-world applications and our ability as researchers to convince the general public of the usefulness of AI is measured by the ability of agents to accomplish domain-specific tasks. Thus, we will also measure the performance of solutions based on task-specific measures. In the Cybersecurity Defense domain, this includes the amount of time that different resources in the network remained free from infiltration by attackers, as well as the average amount of infiltration in each resource. In the Ridesharing domain, this includes the number of passengers successfully transported to their destination, the average wait time before passengers were picked up, and the average time a passenger rode in a car before arriving at their destination. In the Wildfire Suppression domain, this includes the total number of fires extinguished vs. burned out, the average duration of each fire and the efficiency of limited suppressant usage by agents.</br></br>
+        Determining winners: The winner of each track will be determined based on a comprehensive evaluation of each of the above performance measures in each of the scenarios within the track. In particular, the highest scoring submission in each performance measure per scenario will receive points (where n ins the number of submissions to that track), the second highest scoring will receive n-1 points, etc. The points in each performance measure will be summed up, and the highest scoring team in each track will be determined to be the winner of that track.
+      </p>
+    </section>
+
+    <!-- Submission Guidelines -->
+    <section id="submissions">
+      <h2>Submission Guidelines</h2>
+      <p>
+        Participants must submit their code via our online portal: <a href="https://uofnelincoln-my.sharepoint.com/:f:/r/personal/tbillings4_unl_edu/Documents/MOASEI%20Competition?csf=1&web=1&e=3lP8Ij">Submit Here</a>.</br></br>
+
+        After the submission deadline, the latest version of each solution will be downloaded for evaluation. 
+      </p>
+    </section>
+
+    <!-- Rules -->
+    <section id="rules">
+      <h2>Rules</h2>
+      <p>
+        To ensure a fair and competitive environment, we have established the following rules:</br></br>
+        Both individuals and teams are allowed to register for the competition and submit solutions to one, two,  or all three tracks of their choice. Participants must register for the competition, at which time the software simulations of the three tracks will be provided. Submitted solutions are expected to run without errors on our computing platform before the submission  deadline. Participants will have access to the simulators in advance  to thoroughly test that their solutions operate without error </br></br>
+        We will provide a shared set of 2-3 scenarios within each track  (e.g., different configurations of attackers and defender agents in the Cybersecurity Defense track, different numbers and challenges of fires in the Wildfire Suppression track) that participants will use for developing and training their solutions. Participants will be able to randomly generate episodes for each scenario in each track using different random seeds (or repeat the same episode using the same seed).</br></br>
+        We are encouraging MARL solutions within the competition; however, solutions utilizing other decision-making paradigms (heuristics, planning, game theory) are permissible to ensure the broadest  participation and reflect the full range of decision making possible in OASYS. At the same time, our simulation environments provide information most compatible with MARL solutions, such as observations of current states and rewards after taking each action. The APIs of the simulation environments will not provide access to the models of underlying state transition, observation, and reward dynamics. Communication between agents will not be supported  nor permitted.</br></br>
+        Solution submissions will consist of both (1) the source code needed to operate an agent within the simulators of the three domains (following a provided API structure for standardization), as well as (2) any serialized data files needed to operate the solutions (e.g., serialized neural networks for deep MARL solutions). We will impose a reasonable storage size for solutions (e.g., 10GB) for the sake of competition management. Trained models must be submitted; we will not have computational capacity to retrain models that require extensive computation time for training. Timing of decision making will be enforced so that agents do not have unlimited time to make each decision, allowing a reasonable amount of time per decision, reflecting real-world operations.
+
+      </p>
+    </section>
+
+    <!-- Simulation Platform -->
+    <section id="platform">
+      <h2>Simulation Platform</h2>
+      <p>
+        The competition will be conducted within the Python programming language. We will provide simulation environments for the three tracks, implemented within our <a href="https://github.com/oasys-mas/free-range-zoo">Free-Range Zoo</a> MARL testbed – an OASYS variant of the popular PettingZoo MARL testbed– with a consistent API for all environments, documentation can be found <a href="https://oasys-mas.github.io/free-range-zoo/">here</a>. Solutions can utilize popular frameworks for implementing reinforcement learning solutions, including the Tensorflow and PyTorch libraries for deep learning. In addition to user supplied code, we will permit any external libraries, so long as they can be downloaded through PyPI with pip using a requirements.txt document.</br></br>
+        Solutions submitted by participants will be evaluated on research  infrastructure hosted by the proposer’s institutions. These include servers with up to 32 cores, 512GB of RAM, and NVIDIA RTX 6000 Ada GPU (with 48GB VRAM).
+
+      </p>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="timeline">
+      <h2>Timeline</h2>
+      <ul>
+        <li><strong>February 20th:</strong> Software environments will be available for download by registered participants</li>
+        <li><strong>March 14th:</strong> Online "office hours" to answer questions from participants before the final deadline</li>
+        <li><strong>April 1st:</strong> Deadline to register for the competition</li>
+        <li><strong>April 11th: </strong> Deadline for solution submission (both code and trained models)</li>
+        <li><strong>May 7th:</strong> Notification of finalists</li>
+        <li><strong>May 20th: </strong> In-person conclusion of the competition at AAMAS 2025</li>
+      </ul>
+    </section>
+
+    <section id="organizers" class="organizers">
+      <h2>Organizers</h2>
+      <ul>
+        <li><strong>Adam Eck</strong> is the David H. and Margaret W. Barker Associate Professor of Computer Science at Oberlin College where he leads the Social Intelligence Lab. Adam's research interests include decision making for intelligent agents and multiagent systems in complex environments, as well as interdisciplinary applications of artificial intelligence and machine learning in public health and computational social science.</li>
+        <li><strong>Leen-Kiat Soh</strong> is Charles Bessey Professor with the School of Computing at the University of Nebraska, Lincoln, NE, where he leads the Intelligent Agents and Multiagent Systems (IAMAS) group. Leen-Kiat's research interests include multiagent team formation, learning, and modeling, Computer Science education, image processing, and intelligent data analytics. </li>
+        <li><strong>Prashant Doshi</strong> is a Professor of Computer Science with the School of Computing at the University of Georgia and directs the THINC Lab. Prashant's research interests lie in AI and robotics where his research has spanned two decades. In AI, his research has contributed computational algorithms and frameworks toward automated planning and learning in multiagent systems under uncertainty, with a recent emphasis on open agent systems.</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        For any queries or further information, please reach out to us at:
+      </p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:Cpatino2@huskers.unl.edu">Cpatino2@huskers.unl.edu</a><br>
+        <strong>Email:</strong> <a href="mailto:Daniel.Redder@uga.edu">Daniel.Redder@uga.edu</a><br>
+      </p>
+    </section>
+
+
+    <section id="acknowledgements">
+      <h2>Acknowledgements</h2>
+      <p>
+        This research was supported by a collaborative NSF Grant #IIS-1909513 (to A.E.), #IIS-1910037 (to P.D.), and #IIS-1910156 (to L.K.S.). Additionally, This work was completed utilizing the Holland Computing Center of the University of Nebraska,
+        which receives support from the UNL Office of Research and Economic Development, and the Nebraska Research Initiative. Finally, we thank the graduate and undergraduate students who have contributed to the development and testing of MOASEI: Ceferino Patino, Daniel Redder, Alireza Saleh Abadi, and Tyler Billings.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MOASEI. All rights reserved.</p>
+  </footer>
+</body>
+</html>

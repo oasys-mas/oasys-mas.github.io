@@ -114,9 +114,19 @@
 
     <!-- Track #1 -->
     <section id="track1">
-      <h2>Track #1: <em>Cyber Defense (Agent Openness Only)</em></h2>
+      <h2>Track #1: <em>Cybersecurity (Agent Openness Only)</em></h2>
       <p>
         Two teams of multiple agents (attackers vs. defenders) compete to either infiltrate or protect a network infrastructure. Attacker agents frequently disappear to avoid detection, and defender agents (e.g. participants) can be taken offline as the equipment they use is disrupted by network infection. 
+      </p>
+
+      <h3>Cybersecurity Configurations</h3>
+      <p>
+        3v3 agents with 4 subnetworks.<br>
+        <strong>Configurations:</strong> Linear, Star, or Fully Connected network.<br>
+        <strong>Seeds:</strong> Used only for stochastic transitions.<br>
+        <strong>CS1:</strong> Fully connected network.<br>
+        <strong>CS2:</strong> Star connected network.<br>
+        <strong>CS3:</strong> Linear connected network.
       </p>
     </section>
 
@@ -126,6 +136,16 @@
       <p>
         Agents operating autonomous cars within a ridesharing application decide how to prioritize dynamically appearing passengers as tasks.
       </p>
+
+      <h3>Rideshare Configurations</h3>
+      <p>
+        Agents always start in the same position.<br>
+        <strong>Configurations:</strong> Different number of passengers entering (different number guaranteed at start).<br>
+        <strong>Seeds:</strong> Different fares, starts, destinations, and entry times.<br>
+        <strong>DR1:</strong> 11 initial passengers, with 1 additional appearing.<br>
+        <strong>DR2:</strong> 6 initial passengers, 6 additional appear at various times (stochastic).<br>
+        <strong>DR3:</strong> 1 initial passenger, 11 new passengers appear at various times (stochastic).
+      </p>
     </section>
 
     <!-- Track #3 -->
@@ -133,6 +153,16 @@
       <h2>Track #3: <em>Wildfire (Both Agent and Task Openness)</em></h2>
       <p>
         Agents decide how to use limited suppressant resources to collaboratively put out wildfire tasks that appear both spontaneously and due to realistic fire-spread mechanics. Agents must temporarily disengage when they run out of limited suppressant to recharge before rejoining the firefighting efforts.
+      </p>
+
+      <h3>Wildfire Configurations</h3>
+      <p>
+        Agents always start in the same position.<br>
+        <strong>Configurations:</strong> Varying initial agent presence, fire counts/locations, and fire-spread probability.<br>
+        <strong>Seeds:</strong> Used only for stochastic transitions.<br>
+        <strong>WS1:</strong> All agents present; two medium fires; slow new fire creation.<br>
+        <strong>WS2:</strong> All agents present; two medium fires; fast new fire creation.<br>
+        <strong>WS3:</strong> Only 2 agents present; four medium fires; fast new fire creation.
       </p>
     </section>
 
@@ -166,8 +196,14 @@
         We will provide a shared set of 2-3 scenarios within each track  (e.g., different configurations of attackers and defender agents in the Cybersecurity Defense track, different numbers and challenges of fires in the Wildfire Suppression track) that participants will use for developing and training their solutions. Participants will be able to randomly generate episodes for each scenario in each track using different random seeds (or repeat the same episode using the same seed).</br></br>
         We are encouraging MARL solutions within the competition; however, solutions utilizing other decision-making paradigms (heuristics, planning, game theory) are permissible to ensure the broadest  participation and reflect the full range of decision making possible in OASYS. At the same time, our simulation environments provide information most compatible with MARL solutions, such as observations of current states and rewards after taking each action. The APIs of the simulation environments will not provide access to the models of underlying state transition, observation, and reward dynamics. Communication between agents will not be supported  nor permitted.</br></br>
         Solution submissions will consist of both (1) the source code needed to operate an agent within the simulators of the three domains (following a provided API structure for standardization), as well as (2) any serialized data files needed to operate the solutions (e.g., serialized neural networks for deep MARL solutions). We will impose a reasonable storage size for solutions (e.g., 10GB) for the sake of competition management. Trained models must be submitted; we will not have computational capacity to retrain models that require extensive computation time for training. Timing of decision making will be enforced so that agents do not have unlimited time to make each decision, allowing a reasonable amount of time per decision, reflecting real-world operations.
-
       </p>
+
+      <!-- New content for configurations and seeds -->
+
+
+
+
+
     </section>
 
     <!-- Simulation Platform -->

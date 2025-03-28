@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Decision Making in Open Agent Systems (AAMAS'2025 Tutorial)</title>
+  <style>
+    /* Basic reset and styling */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #0b3d91; /* Example navy color */
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #f4f4f4;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #0b3d91;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      color: #0b3d91;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    /* Example styling for timeline list */
+    .timeline ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .timeline li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Decision Making in Open Agent Systems (AAMAS'2025 Tutorial)</h1>
+    <h3>Morning of May 19th, 2025</h3>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#description">Description</a>
+    <a href="#audience">Target Audience</a>
+    <a href="#outline">Outline</a>
+    <a href="#presenters">Presenters</a>
+    <a href="#slides">Slides</a>
+    <a href="#contact">Contact</a>
+    <a href="#acknowledgements">Acknowledgements</a>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+    <!-- About the Tutorial -->
+    <section id="description">
+      <h2>About the Tutorial</h2>
+      <p>Many real-world applications of multiagent systems (MAS) are open agent systems (OASYS) where the sets of agents, tasks, and capabilities can dynamically change over time. Often, these changes are unpredictable and unknown in advance by the decision making agents utilizing their capabilities to accomplish tasks. In contrast, most methods for autonomous decision making (whether planning, reinforcement learning, or game theory) assume that the set of agents, tasks, and capabilities are static throughout the lifetime of the system. Mismatches between the assumptions of the agents’ reasoning and models of the environment vs. the underlying dynamics of the environment can risk critical failure of agents deployed to real-world applications. In this tutorial, we will (1) introduce OASYS as a challenging complexity of decision making in multiagent systems, illustrating different sources of openness in several real-world applications of MAS, (2) summarize state-of-the-art solutions for decision making in OASYS within both the multiagent planning and multiagent reinforcement learning paradigms, and (3) highlight several promising avenues of future research that would enhance the ability of agents to reason within OASYS.</p>
+
+      <h2>Learning Outcomes</h2>
+      <p>Participants will enhance their understanding of (1) the challenges of multiagent decision-making in open agent systems caused by the sets of agents, tasks, and/or agent capabilities changing over time in dynamic and unpredictable ways, (2) state-of-the-art planning and reinforcement learning solutions for autonomous reasoning in open agent systems, including a comparison of their relative strengths and weaknesses in different scenarios, and (3) active areas of current and future research for improving reasoning in such challenging multiagent environments.</p>
+    </section>
+
+    <!-- Target Audience -->
+    <section id="audience">
+      <h2>Target Audience</h2>
+      <p>We expect two target audiences for this tutorial. First, researchers studying multiagent decision making (e.g., planning, reinforcement learning, and game theory practitioners) interested in exploring additional challenging environment complexities created by real-world applications of multiagent reasoning. Second, AAMAS attendees who work in applied multiagent systems developing solutions in the types of applications that involve OASYS and are seeking decision making solutions for such problems. In this way, we hope to provide useful background information for both audiences, as well as bring together researchers across the decision making and application spaces of AAMAS for cross-pollination of ideas and development of new collaborations.</p>
+    </section>
+
+    <!-- Outline -->
+    <section id="outline">
+      <h2>Tutorial Outline</h2>
+      <ul>
+	<li>
+	  Topic 1: Introduction to Open Agent Systems
+	  <ul>
+	    <li>Types and Sources of Openness</li>
+	    <li>Challenges Caused by Openness</li>
+	    <li>Example Applications</li>
+	  </ul>
+	</li>
+	<li>
+	  Topic 2: Multiagent Reasoning in OASYS
+	  <ul>
+	    <li>Origins of OASYS</li>
+	    <li>Background: (Multiagent) Markov Decision Processes</li>
+	    <li>Planning and Reinforcement Learning Solutions</li>
+	  </ul>
+	</li>
+	<li>
+	  Topic 3: Emerging and Future Research in OASYS
+	  <ul>
+	    <li>Addressing Scalability to Many-Agent Systems</li>
+	    <li>Focusing on Task and Type Openness</li>
+	    <li>Human-Agent Interactions</li>
+	  </ul>
+	</li>
+	<li>
+	  Topic 4: Community Discussion and MOASEI Competition
+	</li>
+      </ul>
+    </section>
+
+    <!-- Presenters -->
+    <section id="presenters">
+      <h2>Presenters</h2>
+      <ul>
+        <li><a href="https://cs.oberlin.edu/~aeck">Adam Eck</a>, Oberlin College</li>
+        <li><a href="https://thinc.cs.uga.edu/">Prashant Doshi</a>, University of Georgia</li>
+        <li><a href="http://cse.unl.edu/~lksoh/">Leen-Kiat Soh</a>, University of Nebraska</li>
+      </ul>
+    </section>
+
+    <!-- Slides -->
+    <section id="slides">
+      <h2>Tutorial Slides</h2>
+      <p>Our slides are available <a href="OASYSTutorial_AAMAS2025.pptx">here (current version 0.1, posted 03/28/2025)</a></p> 
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For any queries or further information, please reach out to us at:</p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:aeck@oberlin.edu">aeck@oberlin.edu</a><br>
+      </p>
+    </section>
+
+
+    <section id="acknowledgements">
+      <h2>Acknowledgements</h2>
+      <p>This research was supported by a collaborative NSF Grant <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312657&HistoricalAwards=false">#IIS-2312657</a> (to P.D.), <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312658&HistoricalAwards=false">#IIS-2312658</a> (to L.K.S.), and <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312659&HistoricalAwards=false">#IIS-2312659</a> (to A.E.). Additionally, this work was completed utilizing the Holland Computing Center of the University of Nebraska, which receives support from the UNL Office of Research and Economic Development, and the Nebraska Research Initiative. Finally, we thank the graduate and undergraduate students who have contributed to the development of OASYS: Muthukumaran Chandrasekaran, Maulik Shah, Anirudh Kakarlapudi, Keyang He, Gayathri Anil, Bala Duggirala, Ceferino Patino, Alireza Saleh Abadi, Tyler Billings, Daniel Firebanks-Quevedo, Quinn Barker-Plummer, Tumas Rackaitis, Gaurab Pokharel, Ran Liu, Tianxing Zhu, Zejian Huang, Dung Do, Kenean Yemane Kejela, Quan Nguyen, Ryn Lazorchak, Menard Simoya, and M. Daud Zarif.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 authors. All rights reserved.</p>
+  </footer>
+</body>
+</html>

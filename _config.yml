@@ -9,6 +9,7 @@ header_pages:
   - applications.md
   - methods.md
   - code.md
+  - Tutorial.html
   - moasei.md
 minima:
   skin: dark

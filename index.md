@@ -42,19 +42,19 @@ A summary of the research area of OASYS can be found in:
 
 More details about our research on OASYS can be found in:
 
-* Aditya Shinde, Prashant Doshi. 2025. "Inferring Hidden Behavioral Signatures of Cyber Adversaries Using Inverse Reinforcement Learning", in Prestigious Applications of Intelligent Systems (PAIS)/ECAI [[link]] (http://thinc.cs.uga.edu/files/p2763.pdf)
+* Aditya Shinde, Prashant Doshi. 2025. "Inferring Hidden Behavioral Signatures of Cyber Adversaries Using Inverse Reinforcement Learning", Proceedings of the 2025 Prestigious Applications of Intelligent Systems (PAIS)/ECAI [[link]](http://thinc.cs.uga.edu/files/p2763.pdf)
 
-* Tyson Jordan, Pranav Pandey, Prashant Doshi, Ramviyas Parasuraman, Adam Goodie. 2025. "Analyzing Human Perceptions of a MEDEVAC Robot in a Simulated Evacuation Scenario", in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) [[link]] (https://arxiv.org/abs/2410.19072)
+* Tyson Jordan, Pranav Pandey, Prashant Doshi, Ramviyas Parasuraman, Adam Goodie. 2025. "Analyzing Human Perceptions of a MEDEVAC Robot in a Simulated Evacuation Scenario", Proceedings of the 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) [[link]](https://arxiv.org/abs/2410.19072)
 
-* Pranav Pandey, Ramviyas Parasuraman, Prashant Doshi. 2025. "Integrating Perceptions: A Human-Centered Physical Safety Model for Human-Robot Interaction", in IEEE Robot-Human Interaction (RO-MAN)  [[link]] (https://arxiv.org/abs/2507.06700)
+* Pranav Pandey, Ramviyas Parasuraman, Prashant Doshi. 2025. "Integrating Perceptions: A Human-Centered Physical Safety Model for Human-Robot Interaction", Proceedings of the 2025 IEEE Robot-Human Interaction (RO-MAN)  [[link]](https://arxiv.org/abs/2507.06700)
 
-* Yanyu Liu, Yinghui Pan, Yifeng Zeng, Biyang Ma, Prashant Doshi. 2025. "Active Legibility in Multiagent Reinforcement Learning", in Artificial Intelligence Journal (AIJ), Elsevier [[link]] (https://www.sciencedirect.com/science/article/pii/S0004370225000761?via%3Dihub)
+* Yanyu Liu, Yinghui Pan, Yifeng Zeng, Biyang Ma, Prashant Doshi. 2025. "Active Legibility in Multiagent Reinforcement Learning", in Artificial Intelligence Journal (AIJ), Elsevier [[link]](https://www.sciencedirect.com/science/article/pii/S0004370225000761?via%3Dihub)
 
-* Gayathri Anil, Prashant Doshi, Daniel Redder, Adam Eck, Leen-Kiat Soh. 2025. "MOHITO: Multi-Agent Reinforcement Learning using Hypergraphs for Task-Open Systems", in Conference on Uncertainty in AI (UAI) [[link]] (http://thinc.cs.uga.edu/files/adresUAI25_cameraready.pdf)
+* Gayathri Anil, Prashant Doshi, Daniel Redder, Adam Eck, Leen-Kiat Soh. 2025. "MOHITO: Multi-Agent Reinforcement Learning using Hypergraphs for Task-Open Systems", Proceedings of the 2025 Conference on Uncertainty in AI (UAI)[[link]](http://thinc.cs.uga.edu/files/adresUAI25_cameraready.pdf)
 
-* Prasanth Sengadu Suresh, Prashant Doshi, Bikramjit Banerjee. 2025. "Adaptive Human-Robot Collaboration using Type-Based IRL", in Conference on Uncertainty in AI (UAI) [[link]] (http://thinc.cs.uga.edu/files/sdbUAI25.pdf)
+* Prasanth Sengadu Suresh, Prashant Doshi, Bikramjit Banerjee. 2025. "Adaptive Human-Robot Collaboration using Type-Based IRL", Proceedings of the 2025 Conference on Uncertainty in AI (UAI) [[link]](http://thinc.cs.uga.edu/files/sdbUAI25.pdf)
 
-* Bhavana Nare, Anusha Challa, John Bradley Frericks, Prashant Doshi, Kyle Johnsen. 2025. "A Novel Computational Framework of Robot Trust for Human-Robot Teams", in IEEE International Conference on Robotics and Automation (ICRA) [[link]](http://thinc.cs.uga.edu/files/nfdcjICRA25.pdf)
+* Bhavana Nare, Anusha Challa, John Bradley Frericks, Prashant Doshi, Kyle Johnsen. 2025. "A Novel Computational Framework of Robot Trust for Human-Robot Teams", Proceedings of the 2025 IEEE International Conference on Robotics and Automation (ICRA) [[link]](http://thinc.cs.uga.edu/files/nfdcjICRA25.pdf)
 
 * Yikang Gui, Prashant Doshi. 2025. "Inversely Learning Transferable Rewards via Abstracted States". arXiv:2501.01669 [[link]](https://arxiv.org/abs/2501.01669)
 

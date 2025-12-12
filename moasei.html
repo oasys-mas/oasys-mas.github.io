@@ -297,6 +297,13 @@
         We are encouraging MARL solutions within the competition; however, solutions utilizing other decision-making paradigms (heuristics, planning, game theory) are permissible to ensure the broadest  participation and reflect the full range of decision making possible in OASYS. At the same time, our simulation environments provide information most compatible with MARL solutions, such as observations of current states and rewards after taking each action. The APIs of the simulation environments will not provide access to the models of underlying state transition, observation, and reward dynamics. Communication between agents will not be supported  nor permitted.</br></br>
         Solution submissions will consist of both (1) the source code needed to operate an agent within the simulators of the three domains (following a provided API structure for standardization), as well as (2) any serialized data files needed to operate the solutions (e.g., serialized neural networks for deep MARL solutions). We will impose a reasonable storage size for solutions (e.g., 10GB) for the sake of competition management. Trained models must be submitted; we will not have computational capacity to retrain models that require extensive computation time for training. Timing of decision making will be enforced so that agents do not have unlimited time to make each decision, allowing a reasonable amount of time per decision, reflecting real-world operations.
       </p>
+
+      <h3>Use of LLMs</h3>
+      <p>
+        Teams are welcome to use Large Language Models (LLMs) during the training and development phase of the competition, for example, for code generation, documentation, or offline policy design. However, during official evaluation runs, agents must operate without the use of any LLMs, regardless of whether they are accessed via external APIs or run locally.
+        The inclusion of model weights, self-contained LLM inference engines, or local model files within the submission is strictly prohibited. Any LLM-derived features must be distilled into static code or standard non-LLM policy structures prior to submission, ensuring the evaluation is performed without active LLM inference.
+      </p>
+      
     </section>
 
     <!-- Simulation Platform -->
@@ -373,3 +380,4 @@
   </script>
 </body>
 </html>
+

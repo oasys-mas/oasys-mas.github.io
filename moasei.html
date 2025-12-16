@@ -213,23 +213,6 @@
     </section>
 
     <!-- Track #1 -->
-    <!-- <section id="track1">
-      <h2>Track #1: <em>Cybersecurity (Agent Openness Only)</em></h2>
-      <p>
-        Two teams of multiple agents (attackers vs. defenders) compete to either infiltrate or protect a network infrastructure. Attacker agents frequently disappear to avoid detection, and defender agents (e.g. participants) can be taken offline as the equipment they use is disrupted by network infection. 
-      </p>
-
-      <h3>Cybersecurity Configurations</h3>
-      <p>
-        3v3 agents with 4 subnetworks.<br>
-        <strong>Configurations:</strong> Linear, Star, or Fully Connected network.<br>
-        <strong>Seeds:</strong> Used only for stochastic transitions.<br>
-        <strong>CS1:</strong> Fully connected topology.<br>
-        <strong>CS2:</strong> Star connected topology.<br>
-        <strong>CS3:</strong> Linear connected topology.
-      </p>
-    </section> -->
-    <!-- Track #1 -->
     <p style="background-color: #fff3cd; padding: 10px; border-left: 4px solid #856404; margin-bottom: 1rem;"><strong>Note:</strong> The scenarios described for each track are representative training configurations. Testing configurations used for evaluation may be similar but are not guaranteed to be identical.</p>
     <section id="track1">
     <h2>Track #1: <em>Cybersecurity (Agent Openness Only)</em></h2>
@@ -238,29 +221,8 @@
     </p>
 
     <h3>Cybersecurity Configurations</h3>
-      <p>
-      Below are the training configurations for the Cybersecurity track:<br><br>
-      <strong>Scenario: cybersecurity_0</strong><br>
-      <ul>
-          <li><strong>Network:</strong> 5 nodes, linear topology (0-1-2-3-4)</li>
-          <li><strong>Initial Attackers:</strong> 2 attackers initially present</li>
-          <li><strong>Initial Defenders:</strong> All present</li>
-        </ul>
-        <strong>Scenario: cybersecurity_1</strong><br>
-        <ul>
-          <li><strong>Network:</strong> 5 nodes, star topology (node 0 connected to all others)</li>
-          <li><strong>Initial Attackers:</strong> None present at start</li>
-          <li><strong>Initial Defenders:</strong> All present</li>
-        </ul>
-        <strong>Scenario: cybersecurity_2</strong><br>
-        <ul>
-          <li><strong>Network:</strong> 5 nodes, fully connected topology (every node connected to every other node)</li>
-          <li><strong>Initial Attackers:</strong> None present at start</li>
-          <li><strong>Initial Defenders:</strong> 2 defenders initially present</li>
-        </ul>
-        </p>
+      <p>Configurations will be released around January 16, 2026.</p>
 
-      
     <!-- Track #2 -->
     <section id="track2">
       <h2>Track #2: <em>Rideshare (Task Openness Only)</em></h2>
@@ -269,39 +231,7 @@
       </p>
 
       <h3>Rideshare Configurations</h3>
-      <p>
-        <!-- Agents always start in the same position.<br>
-        <strong>Configurations:</strong> Different number of passengers entering (different number guaranteed at start).<br>
-        <strong>Seeds:</strong> Different fares, starts, destinations, and entry times.<br>
-        <strong>DR1:</strong> 11 initial passengers, with 1 additional appearing (stochastic).<br>
-        <strong>DR2:</strong> 6 initial passengers, 6 additional appear at various times (stochastic).<br>
-        <strong>DR3:</strong> 1 initial passenger, 11 new passengers appear at various times (stochastic). -->
-        Below are the training configurations for the Rideshare track:<br><br>
-        <strong>Scenario: rideshare_0</strong><br>
-        <ul>
-          <li><strong>Grid:</strong> 15x15</li>
-          <li><strong>Agent Start Positions:</strong> (13,11), (8,3), (2,14)</li>
-          <li><strong>Passenger Schedule:</strong> 70 passengers, appearing at various times and locations with diverse destinations.</li>
-          <li><strong>Pool Limit:</strong> 4</li>
-          <li><strong>Travel:</strong> No diagonal or fast travel</li>
-        </ul>
-        <strong>Scenario: rideshare_1</strong><br>
-        <ul>
-          <li><strong>Grid:</strong> 15x15</li>
-          <li><strong>Agent Start Positions:</strong> (12,9), (4,1), (0,8)</li>
-          <li><strong>Passenger Schedule:</strong> 65 passengers, staggered arrivals and varied destinations across the grid.</li>
-          <li><strong>Pool Limit:</strong> 4</li>
-          <li><strong>Travel:</strong> No diagonal or fast travel</li>
-        </ul>
-        <strong>Scenario: rideshare_2</strong><br>
-        <ul>
-          <li><strong>Grid:</strong> 15x15</li>
-          <li><strong>Agent Start Positions:</strong> (0,0), (2,14), (7,2)</li>
-          <li><strong>Passenger Schedule:</strong> 65 passengers, requests distributed throughout the episode with a range of trip lengths.</li>
-          <li><strong>Pool Limit:</strong> 4</li>
-          <li><strong>Travel:</strong> No diagonal or fast travel</li>
-        </ul>        
-      </p>
+      <p>Configurations will be released around January 16, 2026.</p>
     </section>
 
     <!-- Track #3 -->
@@ -312,41 +242,7 @@
       </p>
 
       <h3>Wildfire Configurations</h3>
-      <p>
-        <!-- Agents always start in the same position.<br>
-        <strong>Configurations:</strong> Varying initial agent presence, fire counts/locations, and fire-spread probability.<br>
-        <strong>Seeds:</strong> Used only for stochastic transitions.<br>
-        <strong>WS1:</strong> All agents present; two medium fires; slow new fire creation.<br>
-        <strong>WS2:</strong> All agents present; two medium fires; fast new fire creation.<br>
-        <strong>WS3:</strong> No agents are initially present; four medium fires; fast new fire creation. -->
-        The Wildfire track features several challenging scenarios, each with unique grid layouts, fire dynamics, and agent placements. Below are the training configurations for 2026:<br><br>
-
-        <strong>Scenario: wildfire_0</strong><br>
-        <ul>
-          <li><strong>Grid:</strong> 3x3</li>
-          <li><strong>Initial Fires:</strong> Lit at (0,0), (1,0), (1,2), (2,0)</li>
-          <li><strong>Agent Positions:</strong> (0,1), (1,1), (2,2)</li>
-        </ul>
-        <strong>Scenario: wildfire_1</strong><br>
-        <ul>
-          <li><strong>Grid:</strong> 3x3</li>
-          <li><strong>Initial Fires:</strong> Lit at (1,0), (1,1), (1,2), (2,1)</li>
-          <li><strong>Agent Positions:</strong> (0,0), (2,0), (2,2)</li>
-        </ul>
-        <strong>Scenario: wildfire_2</strong><br>
-        <ul>
-          <li><strong>Grid:</strong> 3x3</li>
-          <li><strong>Initial Fires:</strong> Lit at (0,0), (0,1)</li>
-          <li><strong>Agent Positions:</strong> (0,2), (1,1), (2,2)</li>
-        </ul>
-        <strong>Scenario: wildfire_bonus_0</strong><br>
-        <ul>
-          <li><strong>Grid:</strong> 3x3</li>
-          <li><strong>Initial Fires:</strong> Lit at (0,0), (1,0), (1,2), (2,0)</li>
-          <li><strong>Agent Positions:</strong> (0,1), (1,1), (2,2)</li>
-          <li><strong>Equipment:</strong> This scenario introduces "frame openness"—agents can transition between equipment states, which provide bonuses or debuffs to their maximum suppressant capacity.</li>
-        </ul>
-      </p>
+      <p>Configurations will be released around January 16, 2026.</p>
     </section>
 
     <!-- Evaluation -->
@@ -354,9 +250,9 @@
       <h2>Evaluation</h2>
       <p>
         Solutions will be evaluated both on the initial set of shared scenarios available for training, as  well as a novel set of 2-3 configuration that will not be shared (nor the random seeds used) before the conclusion of the competition. Solutions that fail to complete will be evaluated with respect to the tasks they complete before failing.</br></br>
-        Domain-independent MARL Performance Measures: All solutions in all tracks will be evaluated according to the cumulative rewards earned by agents making decisions while operating in test scenarios of the domain utilizing the submitted MARL solution. By using the same performance measures across tracks/domains, we can also try to establish general trends that could generalize to other OASYS domains and characterize the solutions submitted by competitors.</br></br>
-        Domain-specific Task Performance Measures: Ultimately , the success of MAS solutions for real-world applications and our ability as researchers to convince the general public of the usefulness of AI is measured by the ability of agents to accomplish domain-specific tasks. Thus, we will also measure the performance of solutions based on task-specific measures. In the Cybersecurity Defense domain, this includes the amount of time that different resources in the network remained free from infiltration by attackers, as well as the average amount of infiltration in each resource. In the Ridesharing domain, this includes the number of passengers successfully transported to their destination, the average wait time before passengers were picked up, and the average time a passenger rode in a car before arriving at their destination. In the Wildfire Suppression domain, this includes the total number of fires extinguished vs. burned out, the average duration of each fire and the efficiency of limited suppressant usage by agents.</br></br>
-        Determining winners: The winner of each track will be determined based on a comprehensive evaluation of each of the above performance measures in each of the scenarios within the track. In particular, the highest scoring submission in each performance measure per scenario will receive points (where n ins the number of submissions to that track), the second highest scoring will receive n-1 points, etc. The points in each performance measure will be summed up, and the highest scoring team in each track will be determined to be the winner of that track.
+        <strong>Domain-independent MARL Performance Measures</strong>: All solutions in all tracks will be evaluated according to the cumulative rewards earned by agents making decisions while operating in test scenarios of the domain utilizing the submitted MARL solution. By using the same performance measures across tracks/domains, we can also try to establish general trends that could generalize to other OASYS domains and characterize the solutions submitted by competitors.</br></br>
+        <strong>Domain-specific Task Performance Measures</strong>: Ultimately , the success of MAS solutions for real-world applications and our ability as researchers to convince the general public of the usefulness of AI is measured by the ability of agents to accomplish domain-specific tasks. Thus, we will also measure the performance of solutions based on task-specific measures. In the Cybersecurity Defense domain, this includes the amount of time that different resources in the network remained free from infiltration by attackers, as well as the average amount of infiltration in each resource. In the Ridesharing domain, this includes the number of passengers successfully transported to their destination, the average wait time before passengers were picked up, and the average time a passenger rode in a car before arriving at their destination. In the Wildfire Suppression domain, this includes the total number of fires extinguished vs. burned out, the average duration of each fire and the efficiency of limited suppressant usage by agents.</br></br>
+        <strong>Determining winners</strong>: The winner of each track will be determined based on a comprehensive evaluation of each of the above performance measures in each of the scenarios within the track. In particular, the highest scoring submission in each performance measure per scenario will receive points (where n ins the number of submissions to that track), the second highest scoring will receive n-1 points, etc. The points in each performance measure will be summed up, and the highest scoring team in each track will be determined to be the winner of that track.
       </p>
     </section>
 
@@ -378,7 +274,7 @@
         Both individuals and teams are allowed to register for the competition and submit solutions to one, two,  or all three tracks of their choice. Participants must register for the competition. Submitted solutions are expected to run without errors on our computing platform before the submission  deadline. Participants will have access to the simulators in advance  to thoroughly test that their solutions operate without error. </br></br>
         We will provide a shared set of 2-3 scenarios within each track  (e.g., different configurations of attackers and defender agents in the Cybersecurity Defense track, different numbers and challenges of fires in the Wildfire Suppression track) that participants will use for developing and training their solutions. Participants will be able to randomly generate episodes for each scenario in each track using different random seeds (or repeat the same episode using the same seed).</br></br>
         We are encouraging MARL solutions within the competition; however, solutions utilizing other decision-making paradigms (heuristics, planning, game theory) are permissible to ensure the broadest  participation and reflect the full range of decision making possible in OASYS. At the same time, our simulation environments provide information most compatible with MARL solutions, such as observations of current states and rewards after taking each action. The APIs of the simulation environments will not provide access to the models of underlying state transition, observation, and reward dynamics. Communication between agents will not be supported  nor permitted.</br></br>
-        Solution submissions will consist of both (1) the source code needed to operate an agent within the simulators of the three domains (following a provided API structure for standardization), as well as (2) any serialized data files needed to operate the solutions (e.g., serialized neural networks for deep MARL solutions). We will impose a reasonable storage size for solutions (e.g., 10GB) for the sake of competition management. Trained models must be submitted; we will not have computational capacity to retrain models that require extensive computation time for training. Timing of decision making will be enforced so that agents do not have unlimited time to make each decision, allowing a reasonable amount of time per decision, reflecting real-world operations.
+        Solution submissions will consist of both (1) the source code needed to operate an agent within the simulators of the three domains (following a provided API structure for standardization), as well as (2) any serialized data files needed to operate the solutions (e.g., serialized neural networks for deep MARL solutions). We will impose a reasonable storage size for solutions (to be determined very soon) for the sake of competition management. Trained models must be submitted; we will not have computational capacity to retrain models that require extensive computation time for training. Timing of decision making will be enforced so that agents do not have unlimited time to make each decision, allowing a reasonable amount of time per decision, reflecting real-world operations.
       </p>
 
       <h3>Use of LLMs</h3>
@@ -394,7 +290,7 @@
       <h2>Simulation Platform</h2>
       <p>
         The competition will be conducted within the Python programming language. We will provide simulation environments for the three tracks, implemented within our <a href="https://github.com/oasys-mas/free-range-zoo">Free-Range Zoo</a> MARL testbed – an OASYS variant of the popular PettingZoo MARL testbed– with a consistent API for all environments, documentation can be found <a href="https://oasys-mas.github.io/free-range-zoo/">here</a>. Solutions can utilize popular frameworks for implementing reinforcement learning solutions, including the Tensorflow and PyTorch libraries for deep learning. In addition to user supplied code, we will permit any external libraries, so long as they can be downloaded through PyPI with pip using a requirements.txt document.</br></br>
-        Solutions submitted by participants will be evaluated on research  infrastructure hosted by the proposer's institutions. These include servers with up to 32 cores, 512GB of RAM, and NVIDIA RTX 6000 Ada GPU (with 48GB VRAM).
+        Solutions submitted by participants will be evaluated on research  infrastructure hosted by the organizers's institutions.
 
       </p>
     </section>
@@ -408,9 +304,9 @@
     <section id="organizers" class="organizers">
       <h2>Organizers</h2>
       <ul>
-        <li><strong>Adam Eck</strong> is the David H. and Margaret W. Barker Associate Professor of Computer Science at Oberlin College where he leads the Social Intelligence Lab. Adam's research interests include decision making for intelligent agents and multiagent systems in complex environments, as well as interdisciplinary applications of artificial intelligence and machine learning in public health and computational social science.</li>
-        <li><strong>Leen-Kiat Soh</strong> is Charles Bessey Professor with the School of Computing at the University of Nebraska, Lincoln, NE, where he leads the Intelligent Agents and Multiagent Systems (IAMAS) group. Leen-Kiat's research interests include multiagent team formation, learning, and modeling, Computer Science education, image processing, and intelligent data analytics. </li>
-        <li><strong>Prashant Doshi</strong> is a Professor of Computer Science with the School of Computing at the University of Georgia and directs the THINC Lab. Prashant's research interests lie in AI and robotics where his research has spanned two decades. In AI, his research has contributed computational algorithms and frameworks toward automated planning and learning in multiagent systems under uncertainty, with a recent emphasis on open agent systems.</li>
+        <li><strong>Adam Eck</strong> is the Arts & Sciences Director of AI Strategy and Innovation, the David H. and Margaret W. Barker Associate Professor of Computer Science, Data Science, & Business, and Chair of Data Science at Oberlin College, Oberlin, OH, USA where he leads the Social Intelligence Lab.  Adam’s research interests include decision making for intelligent agents and multiagent systems in complex environments, as well as interdisciplinary applications of artificial intelligence and machine learning in public health and computational social science.</li>
+        <li><strong>Leen-Kiat Soh</strong> is the Charles Bessey Professor and Senior Associate Director of the School of Computing at the University of Nebraska, Lincoln, NE, USA. Leen-Kiat's research interests include multiagent systems, modeling, and simulation, in addition to computer science education and intelligent data analytics. His research in multiagent systems has covered negotiations, decentralized planning, and open agent systems.</li>
+        <li><strong>Prashant Doshi</strong> is the Executive Director of the Institute for AI and Distinguished Professor of AI and Computer Science with the School of Computing at the University of Georgia. Prashant’s research interests lie in AI and robotics where his research has spanned two decades. In AI, his research has contributed computational algorithms and frameworks toward automated planning and learning in multiagent systems under uncertainty, with a recent emphasis on open agent systems.</li>
       </ul>
     </section>
 

@@ -213,7 +213,7 @@
     </section>
 
     <!-- Track #1 -->
-    <section id="track1">
+    <!-- <section id="track1">
       <h2>Track #1: <em>Cybersecurity (Agent Openness Only)</em></h2>
       <p>
         Two teams of multiple agents (attackers vs. defenders) compete to either infiltrate or protect a network infrastructure. Attacker agents frequently disappear to avoid detection, and defender agents (e.g. participants) can be taken offline as the equipment they use is disrupted by network infection. 
@@ -228,8 +228,39 @@
         <strong>CS2:</strong> Star connected topology.<br>
         <strong>CS3:</strong> Linear connected topology.
       </p>
-    </section>
+    </section> -->
+    <!-- Track #1 -->
+    <p style="background-color: #fff3cd; padding: 10px; border-left: 4px solid #856404; margin-bottom: 1rem;"><strong>Note:</strong> The scenarios described for each track are representative training configurations. Testing configurations used for evaluation may be similar but are not guaranteed to be identical.</p>
+    <section id="track1">
+    <h2>Track #1: <em>Cybersecurity (Agent Openness Only)</em></h2>
+    <p>
+      Two teams of multiple agents (attackers vs. defenders) compete to either infiltrate or protect a network infrastructure. Attacker agents frequently disappear to avoid detection, and defender agents (e.g. participants) can be taken offline as the equipment they use is disrupted by network infection. 
+    </p>
 
+    <h3>Cybersecurity Configurations</h3>
+      <p>
+      Below are the training configurations for the Cybersecurity track:<br><br>
+      <strong>Scenario: cybersecurity_0</strong><br>
+      <ul>
+          <li><strong>Network:</strong> 5 nodes, linear topology (0-1-2-3-4)</li>
+          <li><strong>Initial Attackers:</strong> 2 attackers initially present</li>
+          <li><strong>Initial Defenders:</strong> All present</li>
+        </ul>
+        <strong>Scenario: cybersecurity_1</strong><br>
+        <ul>
+          <li><strong>Network:</strong> 5 nodes, star topology (node 0 connected to all others)</li>
+          <li><strong>Initial Attackers:</strong> None present at start</li>
+          <li><strong>Initial Defenders:</strong> All present</li>
+        </ul>
+        <strong>Scenario: cybersecurity_2</strong><br>
+        <ul>
+          <li><strong>Network:</strong> 5 nodes, fully connected topology (every node connected to every other node)</li>
+          <li><strong>Initial Attackers:</strong> None present at start</li>
+          <li><strong>Initial Defenders:</strong> 2 defenders initially present</li>
+        </ul>
+        </p>
+
+      
     <!-- Track #2 -->
     <section id="track2">
       <h2>Track #2: <em>Rideshare (Task Openness Only)</em></h2>
@@ -239,12 +270,37 @@
 
       <h3>Rideshare Configurations</h3>
       <p>
-        Agents always start in the same position.<br>
+        <!-- Agents always start in the same position.<br>
         <strong>Configurations:</strong> Different number of passengers entering (different number guaranteed at start).<br>
         <strong>Seeds:</strong> Different fares, starts, destinations, and entry times.<br>
         <strong>DR1:</strong> 11 initial passengers, with 1 additional appearing (stochastic).<br>
         <strong>DR2:</strong> 6 initial passengers, 6 additional appear at various times (stochastic).<br>
-        <strong>DR3:</strong> 1 initial passenger, 11 new passengers appear at various times (stochastic).
+        <strong>DR3:</strong> 1 initial passenger, 11 new passengers appear at various times (stochastic). -->
+        Below are the training configurations for the Rideshare track:<br><br>
+        <strong>Scenario: rideshare_0</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 15x15</li>
+          <li><strong>Agent Start Positions:</strong> (13,11), (8,3), (2,14)</li>
+          <li><strong>Passenger Schedule:</strong> 70 passengers, appearing at various times and locations with diverse destinations.</li>
+          <li><strong>Pool Limit:</strong> 4</li>
+          <li><strong>Travel:</strong> No diagonal or fast travel</li>
+        </ul>
+        <strong>Scenario: rideshare_1</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 15x15</li>
+          <li><strong>Agent Start Positions:</strong> (12,9), (4,1), (0,8)</li>
+          <li><strong>Passenger Schedule:</strong> 65 passengers, staggered arrivals and varied destinations across the grid.</li>
+          <li><strong>Pool Limit:</strong> 4</li>
+          <li><strong>Travel:</strong> No diagonal or fast travel</li>
+        </ul>
+        <strong>Scenario: rideshare_2</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 15x15</li>
+          <li><strong>Agent Start Positions:</strong> (0,0), (2,14), (7,2)</li>
+          <li><strong>Passenger Schedule:</strong> 65 passengers, requests distributed throughout the episode with a range of trip lengths.</li>
+          <li><strong>Pool Limit:</strong> 4</li>
+          <li><strong>Travel:</strong> No diagonal or fast travel</li>
+        </ul>        
       </p>
     </section>
 
@@ -257,12 +313,39 @@
 
       <h3>Wildfire Configurations</h3>
       <p>
-        Agents always start in the same position.<br>
+        <!-- Agents always start in the same position.<br>
         <strong>Configurations:</strong> Varying initial agent presence, fire counts/locations, and fire-spread probability.<br>
         <strong>Seeds:</strong> Used only for stochastic transitions.<br>
         <strong>WS1:</strong> All agents present; two medium fires; slow new fire creation.<br>
         <strong>WS2:</strong> All agents present; two medium fires; fast new fire creation.<br>
-        <strong>WS3:</strong> No agents are initially present; four medium fires; fast new fire creation.
+        <strong>WS3:</strong> No agents are initially present; four medium fires; fast new fire creation. -->
+        The Wildfire track features several challenging scenarios, each with unique grid layouts, fire dynamics, and agent placements. Below are the training configurations for 2026:<br><br>
+
+        <strong>Scenario: wildfire_0</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 3x3</li>
+          <li><strong>Initial Fires:</strong> Lit at (0,0), (1,0), (1,2), (2,0)</li>
+          <li><strong>Agent Positions:</strong> (0,1), (1,1), (2,2)</li>
+        </ul>
+        <strong>Scenario: wildfire_1</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 3x3</li>
+          <li><strong>Initial Fires:</strong> Lit at (1,0), (1,1), (1,2), (2,1)</li>
+          <li><strong>Agent Positions:</strong> (0,0), (2,0), (2,2)</li>
+        </ul>
+        <strong>Scenario: wildfire_2</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 3x3</li>
+          <li><strong>Initial Fires:</strong> Lit at (0,0), (0,1)</li>
+          <li><strong>Agent Positions:</strong> (0,2), (1,1), (2,2)</li>
+        </ul>
+        <strong>Scenario: wildfire_bonus_0</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 3x3</li>
+          <li><strong>Initial Fires:</strong> Lit at (0,0), (1,0), (1,2), (2,0)</li>
+          <li><strong>Agent Positions:</strong> (0,1), (1,1), (2,2)</li>
+          <li><strong>Equipment:</strong> This scenario introduces "frame openness"—agents can transition between equipment states, which provide bonuses or debuffs to their maximum suppressant capacity.</li>
+        </ul>
       </p>
     </section>
 
@@ -380,4 +463,5 @@
   </script>
 </body>
 </html>
+
 

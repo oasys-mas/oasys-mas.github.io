@@ -213,7 +213,7 @@
     </section>
 
     <!-- Track #1 -->
-    <p style="background-color: #fff3cd; padding: 10px; border-left: 4px solid #856404; margin-bottom: 1rem;"><strong>Note:</strong> The scenarios described for each track are representative training configurations. Testing configurations used for evaluation may be similar but are not guaranteed to be identical.</p>
+    <p style="background-color: #fff3cd; padding: 10px; border-left: 4px solid #856404; margin-bottom: 1rem;"><strong>Note:</strong> The scenarios described for each track are publicly released training configurations. Testing configurations used for evaluation are drawn from the same distribution but are not guaranteed to be identical to the training configurations. The format of observations given by the environment will remain unchanged.</p>
     <section id="track1">
     <h2>Track #1: <em>Cybersecurity (Agent Openness Only)</em></h2>
     <p>
@@ -249,7 +249,9 @@
     <section id="evaluation">
       <h2>Evaluation</h2>
       <p>
-        Solutions will be evaluated both on the initial set of shared scenarios available for training, as  well as a novel set of 2-3 configuration that will not be shared (nor the random seeds used) before the conclusion of the competition. Solutions that fail to complete will be evaluated with respect to the tasks they complete before failing.</br></br>
+        For each competition track, participants must submit a single set of policies (one for each agent) that will be applied across all scenarios within that track. The sole exception is the optional bonus track (3A) in the Wildfire domain, participants may elect to submit a distinct, dedicated set of policies for this specific challenge. Performance on the bonus track will not influence the primary competition rankings and will only be utilized as a tie-breaker if necessary.</br></br>
+        The scenarios described for each track represent publicly released training configurations. The testing configurations used for final evaluation are drawn from the same distribution as the training configurations but are not guaranteed to be identical to the training set. However, the format of observations provided by the environment will remain unchanged.</br></br>
+        Solutions will be evaluated based on their performance on these testing configurations. Solutions that fail to execute to completion will be evaluated with respect to the tasks successfully completed prior to failure.</br></br>
         <strong>Domain-independent MARL Performance Measures</strong>: All solutions in all tracks will be evaluated according to the cumulative rewards earned by agents making decisions while operating in test scenarios of the domain utilizing the submitted MARL solution. By using the same performance measures across tracks/domains, we can also try to establish general trends that could generalize to other OASYS domains and characterize the solutions submitted by competitors.</br></br>
         <strong>Domain-specific Task Performance Measures</strong>: Ultimately , the success of MAS solutions for real-world applications and our ability as researchers to convince the general public of the usefulness of AI is measured by the ability of agents to accomplish domain-specific tasks. Thus, we will also measure the performance of solutions based on task-specific measures. In the Cybersecurity Defense domain, this includes the amount of time that different resources in the network remained free from infiltration by attackers, as well as the average amount of infiltration in each resource. In the Ridesharing domain, this includes the number of passengers successfully transported to their destination, the average wait time before passengers were picked up, and the average time a passenger rode in a car before arriving at their destination. In the Wildfire Suppression domain, this includes the total number of fires extinguished vs. burned out, the average duration of each fire and the efficiency of limited suppressant usage by agents.</br></br>
         <strong>Determining winners</strong>: The winner of each track will be determined based on a comprehensive evaluation of each of the above performance measures in each of the scenarios within the track. In particular, the highest scoring submission in each performance measure per scenario will receive points (where n ins the number of submissions to that track), the second highest scoring will receive n-1 points, etc. The points in each performance measure will be summed up, and the highest scoring team in each track will be determined to be the winner of that track.
@@ -365,6 +367,7 @@
   </script>
 </body>
 </html>
+
 
 
 

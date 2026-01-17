@@ -249,7 +249,31 @@
       </p>
 
       <h3>Rideshare Configurations</h3>
-      <p>Configurations will be released around January 16, 2026.</p>
+        Below are the training configurations for the Rideshare track:<br><br>
+        <strong>Scenario: rideshare_0</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 15x15</li>
+          <li><strong>Agent Start Positions:</strong> (13,11), (8,3), (2,14)</li>
+          <li><strong>Passenger Schedule:</strong> 70 passengers, appearing at various times and locations with diverse destinations.</li>
+          <li><strong>Pool Limit:</strong> 4</li>
+          <li><strong>Travel:</strong> No diagonal or fast travel</li>
+        </ul>
+        <strong>Scenario: rideshare_1</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 15x15</li>
+          <li><strong>Agent Start Positions:</strong> (12,9), (4,1), (0,8)</li>
+          <li><strong>Passenger Schedule:</strong> 65 passengers, staggered arrivals and varied destinations across the grid.</li>
+          <li><strong>Pool Limit:</strong> 4</li>
+          <li><strong>Travel:</strong> No diagonal or fast travel</li>
+        </ul>
+        <strong>Scenario: rideshare_2</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 15x15</li>
+          <li><strong>Agent Start Positions:</strong> (0,0), (2,14), (7,2)</li>
+          <li><strong>Passenger Schedule:</strong> 65 passengers, requests distributed throughout the episode with a range of trip lengths.</li>
+          <li><strong>Pool Limit:</strong> 4</li>
+          <li><strong>Travel:</strong> No diagonal or fast travel</li>
+        </ul>
     </section>
 
     <!-- Track #3 -->
@@ -260,7 +284,33 @@
       </p>
 
       <h3>Wildfire Configurations</h3>
-      <p>Configurations will be released around January 16, 2026.</p>
+        The Wildfire track features several challenging scenarios, each with unique grid layouts, fire dynamics, and agent placements. Below are the training configurations for 2026:<br><br>
+
+        <strong>Scenario: wildfire_0</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 3x3</li>
+          <li><strong>Initial Fires:</strong> Lit at (0,0), (1,0), (1,2), (2,0)</li>
+          <li><strong>Agent Positions:</strong> (0,1), (1,1), (2,2)</li>
+        </ul>
+        <strong>Scenario: wildfire_1</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 3x3</li>
+          <li><strong>Initial Fires:</strong> Lit at (1,0), (1,1), (1,2), (2,1)</li>
+          <li><strong>Agent Positions:</strong> (0,0), (2,0), (2,2)</li>
+        </ul>
+        <strong>Scenario: wildfire_2</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 3x3</li>
+          <li><strong>Initial Fires:</strong> Lit at (0,0), (0,1)</li>
+          <li><strong>Agent Positions:</strong> (0,2), (1,1), (2,2)</li>
+        </ul>
+        <strong>Scenario: wildfire_bonus_0</strong><br>
+        <ul>
+          <li><strong>Grid:</strong> 3x3</li>
+          <li><strong>Initial Fires:</strong> Lit at (0,0), (1,0), (1,2), (2,0)</li>
+          <li><strong>Agent Positions:</strong> (0,1), (1,1), (2,2)</li>
+          <li><strong>Equipment:</strong> This scenario introduces "frame openness"—agents can transition between equipment states, which provide bonuses or debuffs to their maximum suppressant capacity.</li>
+        </ul>
     </section>
 
     <!-- Evaluation -->
@@ -385,6 +435,7 @@
   </script>
 </body>
 </html>
+
 
 
 

@@ -304,18 +304,18 @@
           <li><strong>Initial Fires:</strong> Lit at (0,0), (0,1)</li>
           <li><strong>Agent Positions:</strong> (0,2), (1,1), (2,2)</li>
         </ul>
-        <hr style="margin: 24px 0 12px; border: none; border-top: 2px solid #ddd;">
+          </section>
+        <!-- <hr style="margin: 24px 0 12px; border: none; border-top: 2px solid #ddd;"> -->
 
-  <h4 style="margin: 0 0 10px; color: #b45309; font-weight: 700;">
-    Bonus Scenario: wildfire_bonus_0
-  </h4>
 
-  <!-- <strong>Scenario: wildfire_bonus_0</strong><br> -->
+      <section id="track3a">
+        <h2>Track #3A: <em>Wildfire Bonus (All Agent, Task and Frame Openness)</em></h2>
+  <strong>Scenario: wildfire_bonus_0</strong><br>
   <ul>
     <li><strong>Grid:</strong> 3x3</li>
     <li><strong>Initial Fires:</strong> Lit at (0,0), (1,0), (1,2), (2,0)</li>
     <li><strong>Agent Positions:</strong> (0,1), (1,1), (2,2)</li>
-    <li><strong>Equipment:</strong> This scenario introduces "frame openness"—agents can transition between equipment states, which provide bonuses or debuffs to their maximum suppressant capacity.</li>
+    <li><strong>Equipment:</strong> This scenario introduces "frame openness"—agents can transition between equipment states, which increases or decreases their maximum suppressant capacity.</li>
   </ul>
     </section>
 
@@ -323,7 +323,7 @@
     <section id="evaluation">
       <h2>Evaluation</h2>
       <p>
-        For each competition track, participants must submit a single set of policies (one for each agent) that will be applied across all scenarios within that track. The sole exception is the optional bonus track (3A) in the Wildfire domain, participants may elect to submit a distinct, dedicated set of policies for this specific challenge. Performance on the bonus track will not influence the primary competition rankings and will only be utilized as a tie-breaker if necessary.</br></br>
+        For each competition track, participants must submit a single set of policies (one for each agent) that will be applied across all scenarios within that track. The sole exception is the optional bonus track (3A) in the Wildfire domain, participants may elect to submit a distinct, dedicated set of policies for this specific challenge. Performance on the bonus track will not influence the primary competition rankings and will only be utilized as a tie-breaker if necessary. Participants are encouraged to attempt the bonus track to improve the overall applicability of their solution.</br></br>
         The scenarios described for each track represent publicly released training configurations. The testing configurations used for final evaluation are drawn from the same distribution as the training configurations but are not guaranteed to be identical to the training set. However, the format of observations provided by the environment will remain unchanged.</br></br>
         Solutions will be evaluated based on their performance on these testing configurations. Solutions that fail to execute to completion will be evaluated with respect to the tasks successfully completed prior to failure.</br></br>
         <strong>Domain-independent MARL Performance Measures</strong>: All solutions in all tracks will be evaluated according to the cumulative rewards earned by agents making decisions while operating in test scenarios of the domain utilizing the submitted MARL solution. By using the same performance measures across tracks/domains, we can also try to establish general trends that could generalize to other OASYS domains and characterize the solutions submitted by competitors.</br></br>
@@ -441,6 +441,7 @@
   </script>
 </body>
 </html>
+
 
 
 

@@ -42,6 +42,8 @@ A summary of the research area of OASYS can be found in:
 
 More details about our research on OASYS can be found in:
 
+* Alireza Saleh Abadi, Leen-Kiat Soh, Daniel Alan Redder, Adam Eck, Prashant Doshi. 2026. "PLATO: Pointer Learner for Agent and Task Openness", Advances in Neural Information Processing Systems (NeurIPS) [[link]](https://arxiv.org/abs/2607.25082)
+
 * Aditya Shinde, Prashant Doshi. 2025. "Inferring Hidden Behavioral Signatures of Cyber Adversaries Using Inverse Reinforcement Learning", Proceedings of the 2025 Prestigious Applications of Intelligent Systems (PAIS)/ECAI [[link]](http://thinc.cs.uga.edu/files/p2763.pdf)
 
 * Tyson Jordan, Pranav Pandey, Prashant Doshi, Ramviyas Parasuraman, Adam Goodie. 2025. "Analyzing Human Perceptions of a MEDEVAC Robot in a Simulated Evacuation Scenario", Proceedings of the 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) [[link]](https://arxiv.org/abs/2410.19072)

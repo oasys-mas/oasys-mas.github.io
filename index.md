@@ -5,13 +5,17 @@ title: OASYS
 
 <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
 
+<style>.post-header { display: none; }</style>
+
+<h1 class="post-title"><img src="assets/images/logo.png" style="width:80px; height:auto; margin-right:20px; vertical-align:middle;"/>OASYS</h1>
+
 <img src="assets/images/NSF_Official_logo_Med_Res_600ppi.png" style="width:25%; float:right; margin:5px;"/>  This project is a multi-institution collaboration led by [Prashant Doshi](https://thinc.cs.uga.edu) of the University of Georgia, [Leen-Kiat Soh](http://cse.unl.edu/~lksoh/) of the University of Nebraska-Lincoln, and [Adam Eck](https://cs.oberlin.edu/~aeck) of Oberlin College.  Our work has been supported by two collaborative grants from the National Science Foundation: NSF [IIS-1910037](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910037&HistoricalAwards=false), [IIS-1910156](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1910156&HistoricalAwards=false), [IIS-1909513](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1909513&HistoricalAwards=false) and NSF [IIS-2312657](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312657&HistoricalAwards=false), [IIS-2312658](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312658&HistoricalAwards=false), [IIS-2312659](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2312659&HistoricalAwards=false).
 
 <br/>
 <hr/>
 <br/>
 
-## <img src="assets/images/logo.png" style="width:80px; height:auto; margin-right:20px; vertical-align:middle;"/>Project Description
+## Project Description
 
 In many real-world applications of AI, the set of actors and tasks are not constant, but instead change over time.  Robots tasked with suppressing wildfires eventually run out of limited suppressant resources and need to temporarily disengage from the collaborative work in order to recharge, or they might become damaged and leave the environment permanently.  In a large business organization, objectives and goals change with the market, requiring workers to adapt to perform different sets of tasks across time.  We call these multiagent systems **open agent systems**, and the *openness* of the sets of agents and tasks  necessitates new capabilities and modeling for decision making compared to planning and learning in *closed* environments.
 
